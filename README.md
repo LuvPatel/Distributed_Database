@@ -69,3 +69,8 @@ The application layer is the user interface that allows users to interact with t
 -   **Google Cloud Platform (GCP)**: Cloud infrastructure for hosting the distributed database instances.
 -   **SQL**: Query language for data retrieval and manipulation.
 -   **Distributed Database Design**: The system is designed using distributed database principles, ensuring data is stored across multiple locations to enhance availability, fault tolerance, and performance.
+
+## Detailed Report
+
+For a more detailed insight of the distributed Database approach, please refer to the in-depth report here, [Project Specification](./docs/DDB_Final_report.pdf)
+
