@@ -5,7 +5,7 @@
 
 This project involves the design and implementation of a distributed database system that integrates pharmaceutical company, healthcare providers, and regulatory authorities. The system is built on two Google Cloud Platform (GCP) instances, each hosting distinct sets of data relevant to the zone where the instance is located, for example infomation related to drugs and its subsidiary are in US instance zone as they will be accessed frequently in there as the customers are american citizens. Moreover, data related to manufacturing and raw materials is in INDIA instance zone, as the manufacturers are based in India. The distributed architecture ensures secure, efficient, and scalable data management across multiple organizations.
 
-## Architecture
+## System Architecture
 
 The system architecture is divided into two main GCP instances, each serving specific functions:
 
@@ -14,13 +14,17 @@ The system architecture is divided into two main GCP instances, each serving spe
 
 These instances are connected through a Global Data Center (GDC), which serves as the central hub for data integration and retrieval. The GDC interacts with an application layer, allowing users to run SQL queries to access and manipulate data across both GCP instances.
 
-Below is the architecture diagram:
-![Distributed Database Architecture](./Architecture_Diagram.jpg)
+## Entity Relationship Diagram
+
+![ER Diagram](./docs/ERD.jpeg)
 
 
 ### Visual Representation
 
 Below is the visual representation of the system architecture:
+
+Below is the architecture diagram:
+![Distributed Database Architecture](./docs/Architecture_Diagram.jpg)
 
 ## Components
 
