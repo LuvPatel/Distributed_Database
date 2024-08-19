@@ -19,7 +19,7 @@ These instances are connected through a Global Data Center (GDC), which serves a
 ![ER Diagram](./docs/ERD.jpeg)
 
 
-### Visual Representation
+## Visual Representation
 
 Below is the visual representation of the system architecture:
 
@@ -30,31 +30,31 @@ Below is the architecture diagram:
 
 ### GCP Instance 1
 
--   **Pharma Company**
--   **R&D Department**
--   **Researchers**
--   **Funding**
--   **Raw Material Supplier**
--   **Manufacturing Department**
+-   Pharma Company
+-   R&D Department
+-   Researchers
+-   Funding
+-   Raw Material Supplier
+-   Manufacturing Department
 
 ### GCP Instance 2
 
--   **Drug**
--   **Wholesale Distributor**
--   **Pharmacy**
--   **Invoice**
--   **Prescription**
--   **Hospital**
--   **Patient**
--   **Doctor**
--   **Patient Kin**
--   **Inventory**
--   **Notice of Compliance**
--   **Federal Regulator**
--   **New Drug Application**
--   **Clinical Phases**
--   **Test Subjects**
--   **Results**
+-   Drug
+-   Wholesale Distributor
+-   Pharmacy
+-   Invoice
+-   Prescription
+-   Hospital
+-   Patient
+-   Doctor
+-   Patient Kin
+-   Inventory
+-   Notice of Compliance
+-   Federal Regulator
+-   New Drug Application
+-   Clinical Phases
+-   Test Subjects
+-   Results
 
 ### Global Data Center (GDC)
 
