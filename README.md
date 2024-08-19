@@ -5,6 +5,25 @@
 
 This project involves the design and implementation of a distributed database system that integrates pharmaceutical company, healthcare providers, and regulatory authorities. The system is built on two Google Cloud Platform (GCP) instances, each hosting distinct sets of data relevant to the zone where the instance is located, for example infomation related to drugs and its subsidiary are in US instance zone as they will be accessed frequently in there as the customers are american citizens. Moreover, data related to manufacturing and raw materials is in INDIA instance zone, as the manufacturers are based in India. The distributed architecture ensures secure, efficient, and scalable data management across multiple organizations.
 
+## Key Highlights:
+
+1. 📂 Global Data Catalog (GDC): Created a custom Global Data Catalog (GDC) to streamline the retrieval of data from distributed database locations.
+
+2. 📊 Data Modeling: Developed comprehensive Entity-Relationship Diagrams (ERDs) and Enhanced Entity-Relationship Diagrams (EERDs) to accurately represent the relationships and entities essential to event management.
+
+3. ⚙️ Data Optimization: Normalized the data structure to reduce redundancy and resolved fan and chasm traps, enhancing the database's efficiency.
+
+4. 🌍 Horizontal Fragmentation: Applied strategic horizontal fragmentation to distribute SQL database tables across virtual machines (VMs) in different locations, ensuring the separation of private and sensitive information for improved data privacy and security.
+
+
+While cloud services offer tools for such tasks, building this solution from the ground up provided me with invaluable insights into the complexities of managing data in the hospitality sector.
+
+Challenges Overcome:
+
+1. 🔐 Ensuring efficient fragmentation to securely manage sensitive event-related data across multiple locations.
+2. 🔍 Identifying the most relevant fields for the GDC to facilitate efficient data access.
+
+
 ## System Architecture
 
 The system architecture is divided into two main GCP instances, each serving specific functions:
